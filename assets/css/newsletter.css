@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Karla;
+    src: url('../fonts/Karla/static/Karla-SemiBold.ttf');
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    font-family: Karla;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+
+}

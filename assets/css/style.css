@@ -1,0 +1,162 @@
+/* ------General-------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Karla_light';
+    src: url('../fonts/Karla/static/Karla-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('../fonts/Karla/static/Karla-SemiBold.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0 10% 5% 10%;
+}
+
+h1 {
+    font-family: 'Karla';
+}
+
+h2 {
+    font-family: 'Karla';
+}
+
+p {
+    font-family: 'Karla_light';
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Farbe: #323A45/#848484 */
+
+/* ------ header ------ */
+.header {
+    width: 100%;
+    padding: 5% 0;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__headline {
+    display: flex;
+}
+
+.header__item1 {
+    padding: 0 10px;
+    margin-left: 30%;
+}
+
+/* =======================
+    main big img
+=========================*/
+main article .figcaption__img__big {
+    width: 100%;
+}
+
+main article .figcaption__img__big:hover {
+    opacity: 30%;
+    transition-duration: 0.5s;
+    background-color: #F3F3F3;
+}
+
+main article .figcaption__container__big {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main article .figcaption__price__big {
+    text-align: right;
+}
+
+main article .figcaption__text2__big {
+    margin-bottom: 3vh;
+}
+
+/* ========================
+    main grid_container 
+==========================*/
+main .grid__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 5vh;
+}
+
+main .grid__container div .figcaption1 .figcaption__img1 {
+    width: 100%;
+}
+
+main .grid__container div .figcaption1 .figcaption__img1:hover {
+    opacity: 30%;
+    transition-duration: 0.5s;
+    background-color: #F3F3F3;
+}
+
+main .grid__container div .figcaption1 .figcaption__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =======================
+        footer
+==========================*/
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: Karla;
+    margin-top: 8vh;
+}
+
+.footer__container .container__designShop .footer__item1 {
+    margin-bottom: 2vh;
+}
+
+.footer__container .container__designShop .footer__item3 span {
+    font-family: Karla;
+}
+
+.footer__container .container__newsletter__contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__container .container__newsletter__contact .container__contact h3 {
+    margin-bottom: 2vh;
+}
+
+.footer__container .container__newsletter h3 {
+    margin-bottom: 2vh;
+}
+
+.footer__container .container__newsletter a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__container .container__find {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 0 0 0 10vw;
+}
+
+.footer__container .container__find h3 {
+    margin-bottom: 2vh;
+}
